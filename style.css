@@ -1,0 +1,102 @@
+img{
+  width:30%;
+  height:30%;
+}
+
+header{
+  background-color: black;
+  list-style:none;
+  color:white;
+  float:left;
+  width:100%;
+  
+}
+
+header li{
+  display: inline-block;
+  padding:10px;
+}
+
+.left{
+  float:left;
+  width:68%;
+}
+
+.right{
+  float:right;
+  width:28%;
+}
+
+.left h1{
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 20px;
+}
+
+.right h1{
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  font-size:15px;
+  padding-left:10px;
+}
+
+.right li{
+  list-style:none;
+  padding-left:20px;
+  font-size:13px;
+}
+
+
+
+footer{
+  width:100%;
+  background:black;
+  color:white;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  text-align: center;
+  font-size: 15px;
+  padding:3px;
+}
+
+
+form h2{
+  
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px red;
+  padding-left:15px;
+
+}
+
+
+h3 {
+ 
+  border-bottom: dashed 3px ;
+}
+form{
+  border-bottom:3px solid #d7d7d7;
+  border-left: solid 5px #7db4e6;
+  margin:0 auto;
+  background-color:#f4f4f4;
+  padding:15px;
+}
+
+
+.kiji{
+    border-bottom:3px solid #d7d7d7;
+  border-left: solid 5px #7db4e6;
+  margin:0 auto;
+  background-color:#f4f4f4;
+  padding:15px;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
